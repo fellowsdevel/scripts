@@ -9,6 +9,11 @@ Os scripts sao o resultado da necessidade de alterar o perfil ativo do bluetooth
 
 Voce pode criar um atalho no Linux (eu uso CTRL F12) para executar o script [`bt.sh`](bt.sh)
 
+Outra copisa que precisa fazer é criar um link simbolico na pasta bin do diretorio HOME do usuario para os scripts [`bt.sh`](bt.sh) e [`blue.sh`](blue.sh)
+
+\# ln -s /home/usuario/scripts/bt.sh /home/usuario/bin/bt.sh
+\# ln -s /home/usuario/scripts/blue.sh /home/usuario/bin/blue.sh
+
 
 ## Descrição dos Scripts
 
