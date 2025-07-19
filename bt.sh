@@ -1,7 +1,11 @@
 #!/bin/bash
 
+
+# certifica-se de que está definido como o diretório home do usuário atual:
+LOCAL_HOME="$(eval echo ~)"
+
 LOG="/tmp/btman.log"
-BLUE_SCRIPT="/home/andre/devel/scripts/blue.sh"
+BLUE_SCRIPT="$LOCAL_HOME/bin/blue.sh"
 
 if [[ ! -x "$BLUE_SCRIPT" ]]; then
   echo "Script $BLUE_SCRIPT não encontrado ou não executável." | tee "$LOG"
@@ -9,6 +13,7 @@ if [[ ! -x "$BLUE_SCRIPT" ]]; then
 fi
 
 {
+
   echo " "
   echo " "
   echo "Data e hora atual: $(date)"
