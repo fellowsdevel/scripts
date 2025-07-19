@@ -5,6 +5,11 @@ Este repositório contém dois scripts principais para facilitar o gerenciamento
 - [`bt.sh`](bt.sh)
 - [`blue.sh`](blue.sh)
 
+Os scripts sao o resultado da necessidade de alterar o perfil ativo do bluetooth para que o audio fique sincronizado com o video no Linux.
+
+Voce pode criar um atalho no Linux (eu uso CTRL F12) para executar o script [`bt.sh`](bt.sh)
+
+
 ## Descrição dos Scripts
 
 ### `blue.sh`
